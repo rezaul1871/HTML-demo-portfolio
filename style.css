@@ -1,0 +1,116 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.name-color{
+    color: red;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    margin-bottom: 100px;
+    height: 500px;
+    
+}
+.banner{
+    background-image: url(Images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.div-width{
+    width: 50%;
+    float: left;
+    padding-left: 2%;
+}
+.div-widthphoto{
+    
+    align-self: center;
+    text-align: center;
+    width: 50%;
+    float: left;
+    padding-left: 2%;
+}
+.backimg1{
+    background-image: url(Images/inl.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.backimg{
+    background-image: url(Images/halfoval.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.div-widthphoto img{
+    width: 70%;
+    padding-left: 5%;
+}
+.button{
+    text-align: center;
+    text-decoration: none;
+    background-image:linear-gradient(rgb(65, 25, 32), rgb(243, 161, 10));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    font-weight: 700; }
+.div-widthphoto img1{
+    width: 60%;
+    }
+    .dreamsection{
+    
+    background-image: url(Images/halfoval.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    }
+    .dreamsection1{
+        background-image: url(Images/inl.png);
+        background-position: left;
+        padding-left: 10px;
+        background-repeat: no-repeat;
+    }
+    .experiance{
+            box-shadow: 5px 7px 40px gray;
+            padding: 15px;
+            width: 80%;
+            margin: 20px 5%;
+            border-radius: 10px;
+    }
+    div{
+        display: block;
+    }
+    .experience-area{
+        background-image: url(Images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .experience-item{
+        box-shadow: 5px 7px 40px gray;
+        width: 40%;
+        margin-left: 4%;
+        margin-right: 3%;
+        height: 80%;
+        padding-left: 30px;
+        border-radius: 10px;
+    }
+    
+    #full-stack-experience{
+        border-left: 7px solid;
+        border-image: linear-gradient(45deg,lightsalmon,tomato);
+        border-image-slice: 1;
+    }
+    #baby-experience{
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg,blue,cyan);
+        border-image-slice: 1;
+    }
+    footer p{
+        text-align: center;
+    }
